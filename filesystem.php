@@ -9,8 +9,8 @@ class Over_FL_Filesystem extends FL_Filesystem {
 		return file_get_contents( $path );
 	}
 	
-	function file_put_contents( $path ) {
-		return file_put_contents( $path );
+	function file_put_contents( $path, $contents ) {
+		return file_put_contents( $path, $contents );
 	}
 
 	function file_exists( $path ) {
